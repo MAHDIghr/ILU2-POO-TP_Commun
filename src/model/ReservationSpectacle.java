@@ -13,7 +13,7 @@ public class ReservationSpectacle extends Reservation {
 
 	@Override
 	public String toString() {
-		return "Le " + jour + "/" + mois + "\nLa chaise num "+ numChaise + " dans la zone num "+ numZone +".";
+		return "Le " + jour + "/" + mois + "\nLa chaise num " + numChaise + " dans la zone num " + numZone + ".";
 	}
 
 }
