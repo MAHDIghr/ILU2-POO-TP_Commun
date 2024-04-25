@@ -20,7 +20,7 @@ public class CalendrierAnnuel {
 		mois[11] = new Mois("Décembre", 31);
 	}
 
-	private class Mois {
+	private static class Mois {
 		private String nom;
 		private boolean[] jours;
 

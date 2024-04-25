@@ -19,7 +19,7 @@ public class ReservationRestaurant extends Reservation {
 		} else {
 			Service = "deuxieme";
 		}
-		return "Le " + jour + "/" + mois + "\nTable " + numTable + " pour le " + Service + " service.";
+		return super.toString() + "\nTable " + numTable + " pour le " + Service + " service.";
 	}
 
 }

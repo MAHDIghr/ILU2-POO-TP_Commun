@@ -13,7 +13,7 @@ public class ReservationHotel extends Reservation {
 
 	@Override
 	public String toString() {
-		return "Le " + jour + "/" + mois + "\nLa chambre num " + numChambre + " avec " + nbLitSimple + " lit simple.";
+		return super.toString() + "\nLa chambre num " + numChambre + " avec " + nbLitSimple + " lit simple.";
 	}
 
 }
